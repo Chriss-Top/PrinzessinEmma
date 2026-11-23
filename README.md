@@ -11,16 +11,29 @@ Du bist eine Prinzessin. Morgens suchst du dir im Schloss Kleid, Frisur und Schm
 - **Online:** https://chriss-top.github.io/PrinzessinEmma/ (wenn GitHub Pages eingeschaltet ist, siehe unten)
 - **Ohne Internet:** `index.html` herunterladen und im Browser öffnen. Du brauchst keine Installation und keinen Server.
 
-Das Spiel läuft am Computer, auf dem Tablet und auf dem Handy.
+Das Spiel läuft am Computer, auf dem Tablet und auf dem Handy. Zu zweit macht es am meisten Spaß auf einem Tablet oder Computer.
 
 ## So geht's
 
-1. **Name eingeben** und auf „Los geht's!“ tippen.
+1. **Eine oder zwei Prinzessinnen?** Wähle, ob du allein spielst oder zu zweit. Gib die Namen ein und tippe auf „Los geht's!“.
 2. **Im Ankleidezimmer** Kleid, Farbe, Frisur, Haarfarbe und Schmuck aussuchen. Der Spiegel zeigt dir sofort, wie es aussieht. „Überrasch mich!“ wählt alles zufällig.
 3. **Im Hofgarten** herumlaufen:
    - **Laufen:** Tippe oder klicke irgendwohin. Am Computer gehen auch die Pfeiltasten oder WASD.
    - **Etwas tun:** Geh nah an ein Tier, ein Beet, den Brunnen oder die Schlosstür. Unten erscheinen dann große Knöpfe.
    - Tippst du direkt auf ein Tier, läuft die Prinzessin zu ihm hin.
+
+## 👸👸 Zu zweit spielen
+
+Zwei Kinder spielen gemeinsam an einem Gerät. Jede steuert ihre eigene Prinzessin.
+
+- **Ankleidezimmer:** Zwei Spiegel stehen nebeneinander. Oben tippst du an, wer sich gerade anzieht (oder du tippst direkt auf den Spiegel).
+- **Im Garten** hat jede ihre eigene Ecke in der Leiste unten:
+  - **Spielerin 1 (rosa)** links: Steuerknüppel und eigene Knöpfe
+  - **Spielerin 2 (lila)** rechts: Steuerknüppel und eigene Knöpfe
+  - Den Steuerknüppel mit dem Finger in die Richtung ziehen, in die die Prinzessin laufen soll. Beide können gleichzeitig laufen.
+- **Am Computer:** Spielerin 1 läuft mit **W A S D**, Spielerin 2 mit den **Pfeiltasten**. Die Knöpfe werden mit der Maus geklickt.
+- Über jeder Prinzessin steht ihr Name. Ein farbiger Ring zeigt, wo sie gerade etwas tun kann.
+- **Ihr seid ein Team:** Die Sterne und das Ziel des Tages gehören euch beiden. Teilt euch die Arbeit auf, zum Beispiel: Eine kümmert sich um die Tiere, die andere um den Garten.
 
 ## Was es gibt
 
@@ -45,7 +58,7 @@ Sternchen 🦄, Mimi 🐱, Hoppel 🐰, Quaki 🦆 und Bello 🐶. Jedes Tier wi
 - **Sterne** sammeln, bei jeder guten Tat gibt es welche
 - Eine **Feier mit Konfetti** am Ende des perfekten Tages
 - Über die **Schlosstür** zurück ins Ankleidezimmer
-- Name, Outfit, Tag und Sterne merkt sich der Browser (localStorage)
+- Namen, Outfits, Spielmodus, Tag und Sterne merkt sich der Browser (localStorage)
 - Ton an und aus mit 🔊 oben rechts
 
 ## GitHub Pages einschalten
