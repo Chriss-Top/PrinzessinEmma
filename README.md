@@ -1,25 +1,65 @@
 # 👑 Prinzessinnen-Tag
 
-Ein kleines Browserspiel. Die Idee stammt von Emma.
+Ein kleines Browserspiel für Kinder im Grundschulalter. Die Idee stammt von Emma.
 
-Du bist eine Prinzessin. Morgens suchst du dir im Schloss Kleid, Frisur und Schmuck aus. Danach geht es in den Hofgarten: Dort versorgst du die Tiere und pflanzt Blumen.
+Du bist eine Prinzessin. Morgens suchst du dir im Schloss Kleid, Frisur und Schmuck aus. Danach geht es in den Hofgarten. Dort versorgst du die Tiere und pflanzt Blumen.
 
-**Ziel:** Hab den perfekten Tag! Alle 5 Tiere sollen glücklich sein und 3 Pflanzen blühen.
+**Ziel:** Hab den perfekten Tag! Alle 5 Tiere sollen glücklich sein und 3 Pflanzen blühen. Dann gehst du schlafen und ein neuer Tag beginnt.
 
 ## Spielen
 
-Öffne `index.html` im Browser. Das funktioniert auch auf Tablet oder Handy.
-Du brauchst keine Installation und keinen Server.
+- **Online:** https://chriss-top.github.io/PrinzessinEmma/ (wenn GitHub Pages eingeschaltet ist, siehe unten)
+- **Ohne Internet:** `index.html` herunterladen und im Browser öffnen. Du brauchst keine Installation und keinen Server.
 
-## Steuerung
+Das Spiel läuft am Computer, auf dem Tablet und auf dem Handy.
 
-- **Laufen:** Tippe oder klicke irgendwohin, oder benutze die Pfeiltasten / WASD
-- **Etwas tun:** Geh nah an ein Tier, ein Beet, den Brunnen oder die Schlosstür. Unten erscheinen dann Knöpfe.
+## So geht's
+
+1. **Name eingeben** und auf „Los geht's!“ tippen.
+2. **Im Ankleidezimmer** Kleid, Farbe, Frisur, Haarfarbe und Schmuck aussuchen. Der Spiegel zeigt dir sofort, wie es aussieht. „Überrasch mich!“ wählt alles zufällig.
+3. **Im Hofgarten** herumlaufen:
+   - **Laufen:** Tippe oder klicke irgendwohin. Am Computer gehen auch die Pfeiltasten oder WASD.
+   - **Etwas tun:** Geh nah an ein Tier, ein Beet, den Brunnen oder die Schlosstür. Unten erscheinen dann große Knöpfe.
+   - Tippst du direkt auf ein Tier, läuft die Prinzessin zu ihm hin.
 
 ## Was es gibt
 
-- **Ankleidezimmer:** 4 Kleider, 7 Farben, 5 Frisuren, 6 Haarfarben und Schmuck (Krone, Diadem, Blumenkranz, Schleife)
-- **Tiere:** Sternchen 🦄, Mimi 🐱, Hoppel 🐰, Quaki 🦆, Bello 🐶. Jedes Tier will Futter, Wasser und Streicheln.
-- **Garten:** 6 Beete für Tulpe, Sonnenblume, Rose und Erdbeere. Jede Pflanze zweimal gießen, dann blüht sie.
-- **Wunschbrunnen**, Sterne sammeln und eine Feier mit Konfetti am Ende des perfekten Tages
-- Name, Outfit, Tag und Sterne werden im Browser gespeichert (localStorage)
+### 👗 Ankleidezimmer
+| Kleid | So sieht es aus |
+|---|---|
+| Ballkleid | lang und weit wie eine Glocke, mit Puffärmeln und Rüschen |
+| Sternenkleid | lang und schmal, mit Glitzer-Umhang und langen Ärmeln |
+| Blumenkleid | kurzes Stufenkleid mit Blütensaum, man sieht die Schuhe |
+| Herzchenkleid | kurzes Tutu wie bei einer Ballerina, mit Trägern |
+
+Dazu kommen 7 Kleiderfarben, 5 Frisuren, 6 Haarfarben und Schmuck (Krone, Diadem, Blumenkranz, Schleife).
+
+### 🐾 Tiere
+Sternchen 🦄, Mimi 🐱, Hoppel 🐰, Quaki 🦆 und Bello 🐶. Jedes Tier will **Futter**, **Wasser** und **Streicheln**. Hat ein Tier alle drei Sachen bekommen, ist es überglücklich 💖.
+
+### 🌱 Garten
+6 Beete für Tulpe, Sonnenblume, Rose und Erdbeere. Samen pflanzen, gießen, warten und noch einmal gießen, dann blüht die Pflanze. Blühende Blumen kannst du bewundern oder pflücken.
+
+### ✨ Außerdem
+- Am **Wunschbrunnen** eine Münze werfen und dir etwas wünschen
+- **Sterne** sammeln, bei jeder guten Tat gibt es welche
+- Eine **Feier mit Konfetti** am Ende des perfekten Tages
+- Über die **Schlosstür** zurück ins Ankleidezimmer
+- Name, Outfit, Tag und Sterne merkt sich der Browser (localStorage)
+- Ton an und aus mit 🔊 oben rechts
+
+## GitHub Pages einschalten
+
+Damit das Spiel unter dem Link oben erreichbar ist:
+
+1. Im Repository auf **Settings → Pages** gehen.
+2. Bei **Source** „Deploy from a branch“ wählen.
+3. Branch `main` und Ordner `/ (root)` wählen und auf **Save** drücken.
+
+Nach 1–2 Minuten ist das Spiel online. Jede Änderung auf `main` wird automatisch übernommen.
+
+## Für Entwickler
+
+- Alles steckt in **einer Datei**: `index.html` (HTML, CSS und JavaScript, ohne Abhängigkeiten und ohne Build-Schritt).
+- Gezeichnet wird mit Canvas 2D. Die Figuren und Tiere sind eigene Designs.
+- Mehr Hinweise zum Aufbau stehen in [`CLAUDE.md`](CLAUDE.md).
